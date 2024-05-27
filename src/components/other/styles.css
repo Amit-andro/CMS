@@ -1,0 +1,88 @@
+.commentInput::-webkit-scrollbar {
+  display: none;
+}
+
+.commentsDiv {
+  height: 90%;
+  overflow-y: auto;
+  width: 100%;
+  padding-right: 22px;
+}
+
+.commentsDiv::-webkit-scrollbar {
+  width: 10px;
+}
+
+.commentsDiv::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.commentsDiv::-webkit-scrollbar-thumb {
+  background: #001529;
+  border-radius: 10px;
+}
+
+.commentText {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.gutter-row {
+  padding: 0px 16px;
+}
+
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  width: 441px;
+  height: 28px;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.noCommentText {
+  height: 40vh;
+  display: flex;
+  color: darkgray;
+  align-items: center;
+  justify-content: center;
+}
+.noActivity {
+  height: 15vh;
+  color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

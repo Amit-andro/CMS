@@ -1,0 +1,22 @@
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+/* .ant-input.css-dev-only-do-not-override-1k979oh.ant-input-outlined::-webkit-outer-spin-button,
+.ant-input.css-dev-only-do-not-override-1k979oh.ant-input-outlined::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.ant-form-item.css-dev-only-do-not-override-djtmh8.ant-input-outlined::-webkit-outer-spin-button,
+.ant-form-item.css-dev-only-do-not-override-djtmh8.ant-input-outlined::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container {
+  width: 100%; /* Set width according to your layout */
+  overflow-y: auto; /* Enable horizontal scrolling */
+}
+

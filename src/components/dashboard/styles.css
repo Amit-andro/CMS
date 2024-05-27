@@ -1,0 +1,98 @@
+.tiles {
+  background-color: #e6f4ff;
+  border-radius: 5px;
+  padding: 24px 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 10px;
+}
+
+.tileHeading {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  width: fit-content;
+}
+.subHeading {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.count {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.counthead {
+  font-size: 10px;
+}
+
+.subTiles {
+  background-color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+
+.subValue {
+  font-size: 24px;
+}
+
+.tileFooterDiv {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+
+.percentageText {
+  color: #389e0d;
+}
+
+.iconDiv {
+  background-color: #d9f7be;
+  height: 30px;
+  width: 30px;
+  color: #389e0d;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.expiringIconDiv {
+  color: #d4b106;
+  background-color: #feffe6;
+}
+
+.clientIconDiv {
+  color: #1d39c4;
+  background-color: #d6e4ff;
+}
+
+.graphDiv {
+  /* background-color: #e6f4ff; */
+  /* padding: 10px 15px; */
+  /* border-radius: 5px; */
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 10px; */
+}
+
+/* new */
+
+.gutter-box {
+  padding: 8px 0;
+}
+.subFooterDiv{
+  display: flex;
+  flex-direction: column;
+}
+.subFooterDiv1{
+  display: flex;
+  flex-direction: row;
+  gap: 4.5vw;
+}
+.subFooterDiv2{
+  margin: 20px 0; 
+  display: flex;
+  flex-direction: row;
+  gap: 7vw;  
+}

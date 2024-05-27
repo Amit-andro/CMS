@@ -1,0 +1,122 @@
+.contentWrapper {
+  padding: 20px;
+  overflow: auto;
+}
+
+.contentWrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.contentWrapper::-webkit-scrollbar-track {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.contentWrapper::-webkit-scrollbar-thumb {
+  background: #001529;
+  border-radius: 10px;
+}
+
+.ant-notification-notice-close {
+  top: 11px !important;
+}
+
+.ant-notification-notice-message {
+  margin-bottom: 3px !important;
+}
+
+.upload-container.error .ant-upload {
+  border: 1px solid red !important;
+}
+
+/* padding: 20px;
+  overflow: auto;
+} */
+
+.contentWrapper::-webkit-scrollbar-thumb {
+  width: 10px;
+}
+
+.contentWrapper::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.contentWrapper::-webkit-scrollbar-thumb {
+  background: #001529;
+  border-radius: 10px;
+}
+
+.ant-modal-content {
+  padding-right: 5px !important;
+}
+
+.isSelected{
+  color: #001529;
+  background-color: #ccc;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.label{
+  color: #8c8c8c;
+}
+
+
+.ant-table-tbody > tr:nth-child(odd) {
+  background-color: #f5f5f5; 
+}
+
+.ant-table-tbody > tr:nth-child(even) {
+  background-color: white; 
+}
+
+.ant-table-tbody > tr:nth-child(odd) .ant-table-cell {
+  background-color: #f5f5f5;
+}
+
+.ant-table-tbody > tr:nth-child(even) .ant-table-cell {
+  background-color: white; 
+}
+
+/* index.css or App.css */
+.no-clear-button .ant-picker-clear {
+  display: none;
+}
+
+.manage-contracts:hover::before {
+  content: "Manage Contracts";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  z-index: 999;
+}
+
+/* 
+input::placeholder {
+  color: #131313;
+}
+
+input::-webkit-input-placeholder {
+  color: #080808;
+}
+TextArea::placeholder {
+  color: #333;
+}
+
+TextArea::-webkit-input-placeholder {
+  color: #333;
+} */
+
+.highlight {
+  background-color: yellow;
+}
